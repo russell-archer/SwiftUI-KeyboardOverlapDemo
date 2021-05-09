@@ -76,7 +76,7 @@ struct ContentView: View {
 
 ![](./readme-assets/HandleKeyboardOverlappingFields2.gif)
 
-Another way (easy) way to support keyboard avoidance is to place your content inside a `ScrollView`, rather than a `VStack`.
+Another easy way to support keyboard avoidance is to place your content inside a `ScrollView`, rather than a `VStack`.
 Using this approach iOS automatically scrolls the view correctly to make sure the view with focus is visible:
 
 ```swift
