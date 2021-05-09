@@ -11,6 +11,11 @@
 		68052A65263F074600D4A005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68052A64263F074600D4A005 /* ContentView.swift */; };
 		68052A67263F074600D4A005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68052A66263F074600D4A005 /* Assets.xcassets */; };
 		68052A6A263F074600D4A005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68052A69263F074600D4A005 /* Preview Assets.xcassets */; };
+		6805DED8264823E7004E6655 /* HandleKeyboardOverlappingFields3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6805DED4264823E7004E6655 /* HandleKeyboardOverlappingFields3.gif */; };
+		6805DED9264823E7004E6655 /* HandleKeyboardOverlappingFields0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6805DED5264823E7004E6655 /* HandleKeyboardOverlappingFields0.gif */; };
+		6805DEDA264823E7004E6655 /* HandleKeyboardOverlappingFields1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6805DED6264823E7004E6655 /* HandleKeyboardOverlappingFields1.gif */; };
+		6805DEDB264823E7004E6655 /* HandleKeyboardOverlappingFields2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6805DED7264823E7004E6655 /* HandleKeyboardOverlappingFields2.gif */; };
+		680CEEB5264567A700659BD0 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680CEEB4264567A700659BD0 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,12 @@
 		68052A66263F074600D4A005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68052A69263F074600D4A005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68052A6B263F074600D4A005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6805DED2264822B4004E6655 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6805DED4264823E7004E6655 /* HandleKeyboardOverlappingFields3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HandleKeyboardOverlappingFields3.gif; sourceTree = "<group>"; };
+		6805DED5264823E7004E6655 /* HandleKeyboardOverlappingFields0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HandleKeyboardOverlappingFields0.gif; sourceTree = "<group>"; };
+		6805DED6264823E7004E6655 /* HandleKeyboardOverlappingFields1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HandleKeyboardOverlappingFields1.gif; sourceTree = "<group>"; };
+		6805DED7264823E7004E6655 /* HandleKeyboardOverlappingFields2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HandleKeyboardOverlappingFields2.gif; sourceTree = "<group>"; };
+		680CEEB4264567A700659BD0 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +47,8 @@
 		68052A56263F074600D4A005 = {
 			isa = PBXGroup;
 			children = (
+				6805DED2264822B4004E6655 /* README.md */,
+				6805DED3264822B8004E6655 /* readme-assets */,
 				68052A61263F074600D4A005 /* SwiftUI-KeyboardOverlapDemo */,
 				68052A60263F074600D4A005 /* Products */,
 			);
@@ -54,6 +67,7 @@
 			children = (
 				68052A62263F074600D4A005 /* SwiftUI_KeyboardOverlapDemoApp.swift */,
 				68052A64263F074600D4A005 /* ContentView.swift */,
+				680CEEB4264567A700659BD0 /* ContentViewModel.swift */,
 				68052A66263F074600D4A005 /* Assets.xcassets */,
 				68052A6B263F074600D4A005 /* Info.plist */,
 				68052A68263F074600D4A005 /* Preview Content */,
@@ -67,6 +81,17 @@
 				68052A69263F074600D4A005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6805DED3264822B8004E6655 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				6805DED5264823E7004E6655 /* HandleKeyboardOverlappingFields0.gif */,
+				6805DED6264823E7004E6655 /* HandleKeyboardOverlappingFields1.gif */,
+				6805DED7264823E7004E6655 /* HandleKeyboardOverlappingFields2.gif */,
+				6805DED4264823E7004E6655 /* HandleKeyboardOverlappingFields3.gif */,
+			);
+			path = "readme-assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68052A6A263F074600D4A005 /* Preview Assets.xcassets in Resources */,
+				6805DEDB264823E7004E6655 /* HandleKeyboardOverlappingFields2.gif in Resources */,
+				6805DED8264823E7004E6655 /* HandleKeyboardOverlappingFields3.gif in Resources */,
 				68052A67263F074600D4A005 /* Assets.xcassets in Resources */,
+				6805DEDA264823E7004E6655 /* HandleKeyboardOverlappingFields1.gif in Resources */,
+				6805DED9264823E7004E6655 /* HandleKeyboardOverlappingFields0.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +169,7 @@
 			files = (
 				68052A65263F074600D4A005 /* ContentView.swift in Sources */,
 				68052A63263F074600D4A005 /* SwiftUI_KeyboardOverlapDemoApp.swift in Sources */,
+				680CEEB5264567A700659BD0 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +302,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-KeyboardOverlapDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +324,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-KeyboardOverlapDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
