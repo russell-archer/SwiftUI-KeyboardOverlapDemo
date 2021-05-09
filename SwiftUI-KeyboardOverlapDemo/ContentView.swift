@@ -51,7 +51,7 @@ struct ContentView: View {
                 })
             }.frame(maxWidth: .infinity)
         }
-        .padding(.bottom, CGFloat(viewModel.keyboardHeight))
+        .padding()
     }
 }
 

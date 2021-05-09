@@ -94,7 +94,7 @@ struct ContentView: View {
 If you want to support keyboard avoidance in iOS 13 then you need to subscribe to the `UIApplication.keyboardWillShowNotification` and 
 `UIApplication.keyboardWillHideNotification` notifcations and adjust the layout of your view accordingly. 
 
-The essential idea is to listen for key hide/show notifications and then add/remove padding to your view's container based on the height of the keyboard:
+The essential idea is to listen for keyboard hide/show notifications and then add/remove padding to your view's container based on the height of the keyboard:
 
 ```swift
 import UIKit
